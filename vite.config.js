@@ -8,7 +8,7 @@ export default defineConfig({
   plugins: [
     tailwindcss(),
     react()],
-    base : '/lokerhub',
+    base : '/',
     resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
